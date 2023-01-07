@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*******************BANNER************************/
+
+header
+{
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+h1
+{
+    color:#151414;
+    width: 425px;
+    font-size: 3rem;
+}
+
+.banner-p{
+    color: #444343;
+    font-size: 12px;
+}
+
+.banner-btn
+{
+  background-color: #F15B22;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+
+.text-content
+{
+   
+    max-width: 420px;
+    text-align: end;
+    padding: 5rem 5rem;
+}
+
+
+/*******************************Second Section**********************************/
+
+.section-two
+{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+
+.image
+{
+    flex-basis: 50%;
+}
+
+.image img
+{
+    width: 452px;
+    height: 545px;
+    
+}
+
+.text-content2
+{
+    width: 20rem;
+}  
+
+.section-two p
+{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    line-height: 25px;
+}
+
+li
+{
+    list-style: none;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+
+/***************************************My Plans***********************************************/
+
+.text
+{
+   
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    padding-left: 15rem;
+}
+.wrapper
+{
+    
+    display: flex;
+    justify-content: center;
+   
+}
+
+.plan
+{
+    
+    text-align: center;
+    margin: 25px;
+}
+
+.plan .text1
+{
+    font-weight: bold;
+    font-size: 22px;
+    margin: 1rem 0;
+}
+
+/***********************************4th Section**********************************************/
+
+.radient
+{
+    
+    height: 45vh;
+    background-image: linear-gradient(135deg, hsl(6, 89%, 51%, 0.65) , hsl(41, 92%, 53%, 0)),
+     url('../images/watch.png');
+    background-position: center;
+    background-size: cover;
+    margin: 5rem 10rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+    
+}
+
+.fourth-left
+{
+    flex-basis: 50%;
+}
+
+h4
+{
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+
+
+/**************************************Footer******************************************************/
+footer
+{
+    background-color: #151414 ;
+    color: white;
+}
+
+.wrapper3
+{
+  padding: 7rem;
+  display: flex;
+  
+}
+
+.left
+{
+  flex: 1;
+ 
+  
+}
+
+.right
+{
+    flex: 1;
+    margin-left: 10rem;
+    display: flex;
+    flex-direction:column;
+   
+}
+
+footer p
+{
+    color: #FFFFFF;
+    font-weight:lighter;
+    margin: 2rem 0;
+}
+
+footer h2
+{
+    font-size: 42px;
+}
+
+.input
+{
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    width: 10rem;
+    margin: 1rem 0;
+}
+
+.sub
+{
+    color:#F15B22;
+    background-color:  #FFFFFF;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    width: 8rem;
+    border: none;
+    cursor: pointer;
+}
